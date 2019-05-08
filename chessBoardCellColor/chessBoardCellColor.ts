@@ -17,7 +17,7 @@ function chessBoardCellColor(cell1: string, cell2: string): boolean {
 
         if (!xEven && !yEven || xEven && yEven) {
             return 'black';
-        } else if (!xEven && yEven || xEven && !yEven) {
+        } else {
             return 'white';
         } 
     }
