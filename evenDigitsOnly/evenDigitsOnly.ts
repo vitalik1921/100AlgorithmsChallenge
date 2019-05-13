@@ -1,4 +1,8 @@
 function evenDigitsOnly(n: number): boolean {
+    return n
+        .toString()
+        .split('')
+        .every((num) => parseInt(num) % 2 === 0);
 
 }
 
